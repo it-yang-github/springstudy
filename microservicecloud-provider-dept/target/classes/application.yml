@@ -6,7 +6,6 @@ mybatis:
   type-aliases-package: cn.qw.springcloud.enty    # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
-    
 spring:
    application:
     name: microservicecloud-dept 
@@ -36,4 +35,5 @@ info:
   company.name: qw.cn
   build.artifactId: $project.artifactId$
   build.version: $project.version$
-
+mapper:
+  identity: MYSQL

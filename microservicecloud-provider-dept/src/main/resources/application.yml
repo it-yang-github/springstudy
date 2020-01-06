@@ -36,5 +36,4 @@ info:
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 mapper:
-  mappers: cn.qw.microservicecloud.dao
   identity: MYSQL

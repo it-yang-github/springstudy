@@ -1,5 +1,6 @@
-package cn.qw.microservicecloud.dao;
+package cn.qw.microservicecloud.controller;
 
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
 
