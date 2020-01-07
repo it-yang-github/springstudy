@@ -10,10 +10,9 @@
     <modules>
         <module>microserviceloud-api</module>
         <module>microservicecloud-provider-dept</module>
+        <module>microservicecloud-consumer-dep</module>
     </modules>
     <packaging>pom</packaging>
-
-
 
 
     <properties>
@@ -30,6 +29,8 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+
+
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-eureka</artifactId>
                 <version>1.4.7.RELEASE</version>
@@ -109,7 +110,6 @@
             </plugin>
         </plugins>
     </build>
-
 
 
 </project>

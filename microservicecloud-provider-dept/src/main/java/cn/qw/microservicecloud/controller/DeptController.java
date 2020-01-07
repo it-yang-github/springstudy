@@ -39,7 +39,5 @@ public class DeptController {
         Result result = new Result("查询成功", list);
         return result;
     }
-//    Dept get(Integer id);
-//    List<Dept> list();
 
 }
