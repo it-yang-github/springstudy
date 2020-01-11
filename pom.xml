@@ -11,6 +11,7 @@
         <module>microserviceloud-api</module>
         <module>microservicecloud-provider-dept</module>
         <module>microservicecloud-consumer-dep</module>
+        <module>microservicecloud-eureka</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -23,7 +24,7 @@
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.16.18</lombok.version>
         <springloaded.version>1.16.18</springloaded.version>
-        <eureka.version>1.16.18</eureka.version>
+        <eureka.version>1.4.7.RELEASE</eureka.version>
     </properties>
 
     <dependencyManagement>
@@ -110,7 +111,5 @@
             </plugin>
         </plugins>
     </build>
-
-
 </project>
 

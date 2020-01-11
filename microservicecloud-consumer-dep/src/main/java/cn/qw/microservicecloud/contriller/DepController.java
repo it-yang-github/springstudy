@@ -29,6 +29,8 @@ public class DepController {
 
     @RequestMapping("/dept/get")
     public Result get() {
+        // 430 528 1988 0312 6150
+        //188 185 27 250
         Result o = restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", Result.class);
         return o;
     }
